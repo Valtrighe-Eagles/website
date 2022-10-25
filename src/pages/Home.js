@@ -12,8 +12,7 @@ import rota from '../img/rota.png';
 function Home() {
   return (
     <div className="App">
-      <Navbar />
-      <div className="container my-5">
+    <div className="container my-5">
         <h1>Welcome to Valtrighe Eagles!</h1><hr />
         <h2>Who are we?</h2>        
         We are 3 guys with big business aspirations
