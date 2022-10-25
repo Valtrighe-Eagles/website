@@ -6,7 +6,8 @@ const Home = () => {
     <div className="app">
         <div className="container my-5">
           <h1>👕 Merchandising</h1><hr />
-          <div class="card text-center">
+          If you want to buy merchandising, please write an email to <a href="mailto:merchandising@valtrigheeagles.com" style={{ textDecoration: 'none' }}>merchandising@valtrigheeagles.com</a>
+          <div class="card text-center my-5">
             <div class="card-header">
               <div className="alert alert-warning" style={{ border: "2px solid darkOrange" }}><b style={{ color: "darkYellow" }}>Novità</b></div>
             </div>
@@ -16,15 +17,12 @@ const Home = () => {
 
               <center>
               <div id="carouselExampleControls" class="carousel slide my-3" data-ride="carousel">
-                <div class="carousel-inner" style={{ backgroundColor: 'grey' }}>
+                <div class="carousel-inner" style={{ backgroundColor: 'grey', width: "50%" }}>
                   <div class="carousel-item active">
                     <img class="d-block w-50" src={ T_Shirt } alt="First slide" />
                   </div>
                   <div class="carousel-item">
                     <img class="d-block w-50" src={ Graziano } alt="Second slide" />
-                  </div>
-                  <div class="carousel-item">
-                    <img class="d-block w-50" src="..." alt="Third slide" />
                   </div>
                 </div>
                 <a style={{ textDecoration: "none" }} class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -38,10 +36,7 @@ const Home = () => {
               </div>
               </center>
 
-              <a href="#" className="btn btn-success">Go somewhere</a>
-            </div>
-            <div class="card-footer text-muted">
-              2 days ago
+              <a href="mailto:merchandising@valtrigheeagles.com" className="btn btn-success">Buy</a>
             </div>
           </div>
         </div>
