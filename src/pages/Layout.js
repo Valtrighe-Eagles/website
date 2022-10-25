@@ -3,7 +3,7 @@ import Navbar from '../components/Navbar';
 
 const Layout = () => {
   return (
-    <>
+    <div className="App">
       <nav className="navbar navbar-dark" style={{ backgroundColor: "#06283D" }}>
             <a className="navbar-brand" style={{ paddingLeft: '15px' }}>
                 <img src="https://avatars.githubusercontent.com/u/115826499?s=200&v=4" style={{ borderRadius: '8px', marginRight: '25px' }} width={ 50 } height={ 50 } />
@@ -13,7 +13,7 @@ const Layout = () => {
       </nav>
 
       <Outlet />
-    </>
+    </div>
   )
 };
 
