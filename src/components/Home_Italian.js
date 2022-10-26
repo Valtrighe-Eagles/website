@@ -10,7 +10,7 @@ function Home_Italian () {
             <div className="container my-5">
                 <h1>🦅 Benvenuto nel sito di Valtrighe Eagles!</h1><hr />
                 <h2>Chi siamo?</h2>        
-                Siamo tre ragazzi di Bergamo
+                Siamo tre ragazzi di Bergamo. Ci definiamo come <i>businessmen</i>.
                 <div class="card-group my-4">
                 <div class="card">
                     <img class="card-img-top" src={ graziano } alt="" />

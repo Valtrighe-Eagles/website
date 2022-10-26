@@ -7,7 +7,7 @@ import Italy from '../img/italy.jpg';
 import English from '../img/english.jpg';
 
 const Merchandising = () => {
-  const [lang, setLang] = useState("")
+  const [lang, setLang] = useState("ita")
 
   function ChangeLang (event, param) {
     setLang(param)

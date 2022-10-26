@@ -12,7 +12,7 @@ import Italy from '../img/italy.jpg';
 import English from '../img/english.jpg';
 
 function Home() {
-  const [lang, setLang] = useState("eng")
+  const [lang, setLang] = useState("ita")
 
   function ChangeLang (event, param) {
     setLang(param)

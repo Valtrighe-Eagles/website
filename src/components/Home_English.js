@@ -47,7 +47,7 @@ function Home_English () {
                 <div className="my-4">
                 <h2>What do we do?</h2>
                 <div class="alert alert-success" role="alert">
-                    🚀 <b>Sorint Hackersgen Event</b> (22/10/2022) Arduino challenge (coming soon)
+                    🚀 <b>Sorint Hackersgen Event</b> (22/10/2022) Arduino challenge
                 </div>
                 <div class="alert alert-success" role="alert">
                     🏆 <b>IT Olympics</b> (?) Informatcs competition for high school
