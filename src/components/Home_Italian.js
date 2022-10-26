@@ -15,7 +15,7 @@ function Home_Italian () {
                 <div class="card">
                     <img class="card-img-top" src={ graziano } alt="" />
                     <div class="card-body">
-                    <h5 class="card-title">Filippo Graziano</h5>
+                    <a href="https://www.linkedin.com/in/filippogiovannigraziano" style={{ color: "black" }}><h5 class="card-title">Filippo Graziano</h5></a>
                     <p class="card-text">CEO</p>
                     <div className="card-footer">
                         <small>Non si sa cosa faccia tutto il tempo, ma è sempre occupato</small>
@@ -25,7 +25,7 @@ function Home_Italian () {
                 <div class="card">
                     <img class="card-img-top" src={ riva } alt="" />
                     <div class="card-body">
-                    <h5 class="card-title">Manuel Riva</h5>
+                    <a href="https://www.linkedin.com/in/manuel-carlo-riva-043234251" style={{ color: "black" }}><h5 class="card-title">Manuel Riva</h5></a>
                     <p class="card-text">CTO</p>
                     <div className="card-footer">
                         <small>Fa il 99% del lavoro. Btw he uses arch</small>
@@ -35,7 +35,7 @@ function Home_Italian () {
                 <div class="card">
                     <img class="card-img-top" src={ rota } alt="" />
                     <div class="card-body">
-                    <h5 class="card-title">Loris Rota</h5>
+                    <a href="https://www.linkedin.com/in/loris-rota-40063a252" style={{ color: "black" }}><h5 class="card-title">Loris Rota</h5></a>
                     <p class="card-text">PR</p>
                     <div className="card-footer">
                         <small>Se hai qualche problema avvisalo... Non farà niente</small>
@@ -45,16 +45,23 @@ function Home_Italian () {
                 </div>
                 <hr />
                 <div className="my-4">
-                <h2>Cosa facciamo?</h2>
-                <div class="alert alert-success" role="alert">
-                    🚀 <b>Sorint Hackersgen Event</b> (22/10/2022) Sfida con Arduino
-                </div>
-                <div class="alert alert-success" role="alert">
-                    🏆 <b>Olimpiadi di informatica</b> (?) Competizioni di informatica per le scuole di secondo grado
-                </div>
-                <div class="alert alert-success" role="alert">
-                    ⚙️ <b>Sorint Hackathon</b> (2021) Competizione a gruppi di 48 ore in cui si crea un progetto
-                </div>
+                    <h2>Cosa facciamo?</h2>
+                    <div class="alert alert-success" role="alert">
+                        🚀 <b>Sorint Hackersgen Event</b> (22/10/2022) Sfida con Arduino
+                    </div>
+                    <div class="alert alert-success" role="alert">
+                        🏆 <b>Olimpiadi di informatica</b> (?) Competizioni di informatica per le scuole di secondo grado
+                    </div>
+                    <div class="alert alert-success" role="alert">
+                        ⚙️ <b>Sorint Hackathon</b> (2021) Competizione a gruppi di 48 ore in cui si crea un progetto
+                    </div>
+                </div><hr />
+                <div className="my-4">
+                    <h2>Contattaci</h2>
+                    <center>
+                    <a href="mailto:info@valtrigheeagles.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+                    <a href="https://www.github.com/valtrighe-eagles"><img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" /></a>
+                    </center>
                 </div>
             </div>
 
