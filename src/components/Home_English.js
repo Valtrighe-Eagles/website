@@ -3,6 +3,7 @@ import React from 'react';
 import graziano from '../img/graziano.jpg';
 import riva from '../img/riva.jpg';
 import rota from '../img/rota.png';
+import ranica from '../img/ranica.jpg';
 
 function Home_English () {
     return (
@@ -10,7 +11,8 @@ function Home_English () {
             <div className="container my-5">
                 <h1>🦅 Welcome to Valtrighe Eagles!</h1><hr />
                 <h2>Who are we?</h2>        
-                We are 3 guys with big business aspirations
+                We are 3 guys with big business aspirations<hr />
+                <h3>Founders</h3>
                 <div class="card-group my-4">
                 <div class="card">
                     <img class="card-img-top" src={ graziano } alt="" />
@@ -42,6 +44,21 @@ function Home_English () {
                     </div>
                     </div>
                 </div>
+                </div><hr />
+                <h3>Members</h3>
+                <div class="card mb-3">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                        <img src={ ranica }class="img-fluid rounded-start" alt="..." />
+                        </div>
+                        <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Andrea Ranica</h5>
+                            <p class="card-text">Worker</p><hr />
+                            <small>We don't know who he is, but he works so we keep him</small>
+                        </div>
+                        </div>
+                    </div>
                 </div>
                 <hr />
                 <div className="my-4">

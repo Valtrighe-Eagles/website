@@ -3,6 +3,7 @@ import React from 'react';
 import graziano from '../img/graziano.jpg';
 import riva from '../img/riva.jpg';
 import rota from '../img/rota.png';
+import ranica from '../img/ranica.jpg';
 
 function Home_Italian () {
     return (
@@ -42,6 +43,21 @@ function Home_Italian () {
                     </div>
                     </div>
                 </div>
+                </div><hr />
+                <h3>Membri</h3>
+                <div class="card mb-3">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                        <img src={ ranica }class="img-fluid rounded-start" alt="..." />
+                        </div>
+                        <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Andrea Ranica</h5>
+                            <p class="card-text">Programmatore</p><hr />
+                            <small>Non sappiamo chi sia, ma conosce React e quindi lo teniamo</small>
+                        </div>
+                        </div>
+                    </div>
                 </div>
                 <hr />
                 <div className="my-4">
