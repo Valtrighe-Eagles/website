@@ -1,14 +1,17 @@
-import React from 'react';
-
 import graziano from '../img/graziano.jpg';
 import riva from '../img/riva.jpg';
 import rota from '../img/rota.png';
 import ranica from '../img/ranica.jpg';
 
+import { Link } from 'react-router-dom'
+
 function Home_English () {
     return (
         <div className="App">
-            <div className="container my-5">
+            <div className="container">
+                <div className="text-center">
+                    <Link to="/" className="btn my-1">Italiano</Link>
+                </div>
                 <h1>🦅 Welcome to Valtrighe Eagles!</h1><hr />
                 <h2>Who are we?</h2>        
                 We are 3 guys with big business aspirations<hr />
@@ -53,7 +56,7 @@ function Home_English () {
                         </div>
                         <div class="col-md-8">
                         <div class="card-body">
-                            <h5 class="card-title">Andrea Ranica</h5>
+                        <h5 class="card-title"><a href="https://www.linkedin.com/in/andrearanica/" style={{ color: "black" }}>Andrea Ranica</a></h5>
                             <p class="card-text">Worker</p><hr />
                             <small>We don't know who he is, but he works so we keep him</small>
                         </div>
@@ -67,7 +70,7 @@ function Home_English () {
                         🚀 <b>Sorint Hackersgen Event</b> (22/10/2022) Arduino challenge
                     </div>
                     <div class="alert alert-success" role="alert">
-                        🏆 <b>IT Olympics</b> (?) Informatcs competition for high school
+                        🏆 <b>IT Olympics</b> (2021) Informatcs competition for high school
                     </div>
                     <div class="alert alert-success" role="alert">
                         ⚙️ <b>Sorint Hackathon</b> (2021) 48 hours to make a project in group

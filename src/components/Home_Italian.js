@@ -1,14 +1,17 @@
-import React from 'react';
-
 import graziano from '../img/graziano.jpg';
 import riva from '../img/riva.jpg';
 import rota from '../img/rota.png';
 import ranica from '../img/ranica.jpg';
 
+import { Link } from 'react-router-dom'
+
 function Home_Italian () {
     return (
         <div className="App">
-            <div className="container my-5">
+            <div className="container">
+                <div className="text-center">
+                    <Link to="/english" className="btn my-1">English</Link>
+                </div>
                 <h1>🦅 Benvenuto nel sito di Valtrighe Eagles!</h1><hr />
                 <h2>Chi siamo?</h2>        
                 Siamo tre ragazzi di Bergamo. Ci definiamo come <i>businessmen</i>.
@@ -52,9 +55,9 @@ function Home_Italian () {
                         </div>
                         <div class="col-md-8">
                         <div class="card-body">
-                            <h5 class="card-title">Andrea Ranica</h5>
+                            <h5 class="card-title"><a href="https://www.linkedin.com/in/andrearanica/" style={{ color: "black" }}>Andrea Ranica</a></h5>
                             <p class="card-text">Programmatore</p><hr />
-                            <small>Non sappiamo chi sia, ma conosce React e quindi lo teniamo</small>
+                            <small>In teoria è un dipendente, ma in pratica lo licenziamo per sport</small>
                         </div>
                         </div>
                     </div>
@@ -66,7 +69,7 @@ function Home_Italian () {
                         🚀 <b>Sorint Hackersgen Event</b> (22/10/2022) Sfida con Arduino
                     </div>
                     <div class="alert alert-success" role="alert">
-                        🏆 <b>Olimpiadi di informatica</b> (?) Competizioni di informatica per le scuole di secondo grado
+                        🏆 <b>Olimpiadi di informatica</b> (2021) Competizioni di informatica per le scuole di secondo grado
                     </div>
                     <div class="alert alert-success" role="alert">
                         ⚙️ <b>Sorint Hackathon</b> (2021) Competizione a gruppi di 48 ore in cui si crea un progetto
